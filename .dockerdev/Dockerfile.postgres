@@ -1,0 +1,4 @@
+FROM postgres:12
+
+RUN localedef -i th_TH th_TH.UTF-8 -f UTF-8
+ENV LANG th_TH.utf8
